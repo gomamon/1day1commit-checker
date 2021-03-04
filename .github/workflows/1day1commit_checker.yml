@@ -1,0 +1,17 @@
+name: Auto Everyday Commit Checker
+
+on: 
+ schedule:
+   - cron: "59 14 * * *"
+jobs:
+  check-last-commit:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - shell: bash
+        run: |
+          sh .github/createIssueTemplate.sh
+          cat .github/ISSUE_TEMPLATE.md
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
