@@ -1,5 +1,5 @@
 # 1day1commit-checker
-github action을 사용한 1일1커밋 체커! ISSUE를 자동으로 만들어 줍니다.
+github action을 사용한 1일1커밋 체커! 매일매일 ISSUE를 자동으로 만들어 줍니다.
 
 1일1알고리즘풀기!와 같은 용도의 repository에 사용할 수 있죠!
 
