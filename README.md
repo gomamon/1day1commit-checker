@@ -8,7 +8,7 @@ github action을 사용한 1일1커밋 체커! 매일매일 ISSUE를 자동으�
 
 ## HOW TO USE!
 ### 1. `.github/createIssueTemplate.sh`에서 parameter 수정하기
-`assginees`, `success_title`,`success_label`,`success_contents`,  `fail_title`,`fail_label`,`fail_contents` 수정해주세요!
+`assignees`, `success_title`,`success_label`,`success_contents`,  `fail_title`,`fail_label`,`fail_contents` 수정해주세요!
 
 (ex)
 ```
