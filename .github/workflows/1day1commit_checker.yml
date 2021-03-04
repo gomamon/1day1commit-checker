@@ -1,4 +1,4 @@
-name: Auto Everyday Commit Checker
+name: Auto 1day 1commit checker
 
 on: 
  schedule:
