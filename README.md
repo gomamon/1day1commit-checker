@@ -32,7 +32,7 @@ fail_contents="fail!"
 ### 2. `.github/workflows/1day1commit_checker.yml`에 `Action Secrets`를 추가해주세요!
 https://docs.github.com/en/actions/reference/encrypted-secrets
 
-`.github/workflows/1day1commit_checker.yml`파일 마지막 줄 GITHUB_TOKEN에 `Action Secrets`을 추가주세요!
+`.github/workflows/1day1commit_checker.yml`파일 마지막 줄 GITHUB_TOKEN에 `Action Secrets`을 추가해주세요!
 
 (ex)
 ```
